@@ -1,0 +1,37 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <title>Password Strength Checker</title>
+    <style>
+        .container {
+            margin: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        input[type="password"] {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+
+        #result {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Password Strength Checker</h2>
+        <input type="password" id="passwordInput" placeholder="Enter your password">
+        <button onclick="checkPasswordStrength()">Check Strength</button>
+        <p id="result"></p>
+    </div>
+
+<script src="./script.js"></script>
+    </body>
